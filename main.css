@@ -1,0 +1,214 @@
+#main {
+  display: block;
+  background-color: #00457c;
+}
+
+#title,
+#date {
+  text-align: center;
+  color: #e8d4a2;
+  font-size: 32px;
+  font-family: ;
+}
+
+#date {
+  font-size: 30px;
+}
+.photo-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  color: #00457c;
+}
+
+#img-div {
+  display: block;
+  margin: auto;
+  padding-bottom: 40px;
+  background-color: #e8d4a2;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border: 2px solid #00457c;
+  border-radius: 15px;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00457c;
+}
+
+h3 {
+  text-align: left;
+  font-size: 24px;
+  font-family: Tahoma;
+  color: #e8d4a2;
+}
+
+#tribute-info {
+  /*display: inline-block;*/
+  text-indent: 3em;
+  margin-left: 50px;
+  font-size: 20px;
+  color: #e8d4a2;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 30px;
+  color: #e8d4a2;
+}
+.timeline li {
+  position: relative;
+  list-style-position: outside;
+  font-weight: bold;
+  padding: 10px 0 10px 20px;
+  text-indent: 2em;
+}
+
+.timeline p {
+  text-indent: 2em;
+}
+
+.timeline .day1:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("https://www.signingsavvy.com/images/words/numbers/1/one1.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline .day2:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("https://www.signingsavvy.com/images/words/numbers/1/two1.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline .day3:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("https://www.signingsavvy.com/images/words/numbers/1/three1.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline .day4:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("https://www.signingsavvy.com/images/words/numbers/1/four1.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline .day5:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("https://www.signingsavvy.com/images/words/numbers/1/five1.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline .day6:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("https://www.signingsavvy.com/images/words/numbers/1/six1.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline .day7:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("https://www.signingsavvy.com/images/words/numbers/1/seven1.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline .day8:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("https://www.signingsavvy.com/images/words/numbers/1/eight1.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#buttons {
+  text-align: center;
+}
+
+#DPNinfo-btn,
+#DPNGally-btn {
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #e8d4a2;
+  height: 40px;
+  width: 200px;
+  padding: 10px 10px;
+  border: 2px solid #00457c;
+  border-radius: 8px;
+}
+
+footer:before {
+  display: inline-block;
+  margin: 0% 1.5%;
+  width: 100%;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px 0px 10px 0px;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(to top, #00457c, #e8d4a2);
+  content: "\00A9 Ducky Creations/coded by Chris W.";
+}
