@@ -72,112 +72,68 @@ h3 {
   text-indent: 2em;
 }
 
+  .timeline span{
+  /*content: "";*/
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .timeline p {
   text-indent: 2em;
 }
 
-.timeline .day1:before {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
+.timeline .day1{
+ 
   background-image: url("https://www.signingsavvy.com/images/words/numbers/1/one1.png");
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
-.timeline .day2:before {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
+.timeline .day2 {
+  
   background-image: url("https://www.signingsavvy.com/images/words/numbers/1/two1.png");
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
-.timeline .day3:before {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
+.timeline .day3 {
+  
   background-image: url("https://www.signingsavvy.com/images/words/numbers/1/three1.png");
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
-.timeline .day4:before {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
+.timeline .day4 {
+ 
   background-image: url("https://www.signingsavvy.com/images/words/numbers/1/four1.png");
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
-.timeline .day5:before {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
+.timeline .day5 {
+  
   background-image: url("https://www.signingsavvy.com/images/words/numbers/1/five1.png");
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
-.timeline .day6:before {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
+.timeline .day6 {
+  
   background-image: url("https://www.signingsavvy.com/images/words/numbers/1/six1.png");
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
-.timeline .day7:before {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
+.timeline .day7 {
+  
   background-image: url("https://www.signingsavvy.com/images/words/numbers/1/seven1.png");
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
-.timeline .day8:before {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
+.timeline .day8 {
+ 
   background-image: url("https://www.signingsavvy.com/images/words/numbers/1/eight1.png");
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
 #buttons {
